@@ -1,0 +1,56 @@
+* {
+   transition: backgraund-color 0.8s ease;
+}
+
+:root {
+  --cor-primaria: #183C63
+  --cor-secundaria: #3782d2
+  --cor-fundo: #ffffff;
+  --cor-texto: #151428
+  --cor-contraste: #f3eef7
+  --cor-botão: #f9f9f9;
+
+--fonte-texto: 'Segoe UI', sans-serif;
+}
+body {
+  max-width: 100vw;
+}
+
+header {
+  background-color: #183C63;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+main {
+  background-color: #FFFFFF;
+  color: #183C63;
+  margin: 0 auto;
+   padding: 16px;
+}
+
+article {
+  display: flex;
+
+border: 1px solid #182C63
+
+magin: 16px;
+  gap: 16px;
+  padding: 16px;
+
+flex: 1 1 25%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justfy-content: center;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.artigo-autor{
+  font-wight: bold;
+}
